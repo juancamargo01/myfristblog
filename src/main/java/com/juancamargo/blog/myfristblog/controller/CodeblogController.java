@@ -45,6 +45,7 @@ public class CodeblogController {
         return"postForm";
     }
 
+
     @RequestMapping(value="/newpost", method=RequestMethod.POST)
     public String savePost(@Valid Post post, BindingResult result, RedirectAttributes attributes){
         if(result.hasErrors()){
