@@ -12,7 +12,7 @@
 
     <header>
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">juan Blog</a>
                 </div>
@@ -39,7 +39,7 @@
 
                   </p>
 
-                    <a href="#"><h4 class="card-title"style="font-weight:blod; color: black; padding-top: 5px;">
+                    <a th:href="${(#mvc.url('CC#getPostDetails').arg(0, post.id)).build()}"><h4 class="card-title"style="font-weight:blod; color: black; padding-top: 5px;">
                         <span th:text="${post.titulo}"></span></h4></a>
 
                     <p class="card-text"><span th:utext="${#strings.abbreviate(post.texto, 400 )} "></span></p>
