@@ -15,11 +15,17 @@ thymeleaf
 criada um api para post de um blog:
 
 1 aplicação Spring boot utilizando spring MVC.
+
 2 camada de segurança com spring security.
+
 3 Template engine thymeleaf para renderizara spagins Html com Bootstrap.
+
 4 Banco de dados Postgress.
+
 5 Deploy da Aplicação feito na AWS elastic beanstalk.
+
 6 Utilizando ums RDS na AWS usando na aplicação em cloud.
+
 
 
 Para executar o projeto, será necessário instalar os seguintes programas:
